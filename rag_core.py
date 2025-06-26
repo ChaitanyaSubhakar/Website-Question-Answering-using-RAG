@@ -13,7 +13,7 @@ from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain.vectorstores import Chroma
 
 # API Keys
-key = "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"
+key = "************************"
 os.environ["HUGGINGFACEHUB_API_KEY"] = key
 os.environ["HF_TOKEN"] = key
 
